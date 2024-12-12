@@ -1,0 +1,2 @@
+# დაბეჭდეთ ტერმინალში როგორ მოხვდით გოაში თქვენი ისტორია, ამართლებს თუარა თქვენს მოლოდინებს რა შთაბეჭდილებები დაგიტკვათ და ასე შემდეგ დაწერეთ ვრცლად 
+print("me pirvelad GOA shesaxeb gavige tik tok gverdidan wesit swavla unda damewyo wina wels magram ver moxerxda...rodesac swavla daviwye shevizine umravi megobari da viswavle dzaan bevri ram")
