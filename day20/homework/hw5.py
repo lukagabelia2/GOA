@@ -2,5 +2,6 @@
 
 
 a=["luka",13,True,12.3, "saba",2.3,False,4]
-print(a[0])
-print(a[4])
+for i in a:
+    if  type(i)  == str:
+        print(i)
