@@ -1,0 +1,22 @@
+.a{
+    width: 70%;
+    background-color: black;
+    height: 200px;
+    font-size: 100%;
+}
+.b{
+    width: 50%;
+    height: 130px;
+    background-color: blue;
+}
+.p{
+    font-size: 50%;
+    color: rgb(255, 6, 218);
+    height: 180px;
+}
+.f{
+    
+    color: green;
+    width: 30%;
+    height: 180px;
+}

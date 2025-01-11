@@ -1,0 +1,28 @@
+input[type="text"]{
+    border: 4px solid darkgray;
+    
+    border-radius: 32px;
+}
+
+.input{
+    font-size:20px;
+    outline: none;
+    border: none;
+    background-color: aqua;
+    
+}
+
+.input1:hover{
+    border:none;
+    box-shadow: 10px 10px 20px black;
+}
+
+.input2:active{
+    color: red;
+    outline: none;
+    border: none;
+    border: 8px solid red;
+    
+}
+
+    

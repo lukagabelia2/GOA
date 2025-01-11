@@ -1,0 +1,9 @@
+.pass{
+    border-radius: 20px;
+    box-shadow: 19px 16px 10px black;
+}
+
+.password{
+    border-radius: 12%;
+    box-shadow: 10px 18px 18px red;
+}

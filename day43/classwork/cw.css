@@ -1,0 +1,36 @@
+.ul1{
+    list-style-type:circle ;
+}
+
+.ul2{
+    list-style-type: disc;
+}
+
+.ul3{
+list-style: none;
+}
+
+.ul4{
+    list-style: square;
+
+}
+.ul5{
+    list-style-position: inside;
+}
+.ul6{
+    list-style-position: outside;
+    list-style-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQDE4cJvMUaRNtQKS6pJCi7je2_72uwO5USw&s");
+}
+.ul7{
+    list-style-type:georgian ;
+}
+
+.ul8{
+    list-style-type:initial ;
+}
+.ul9{
+    list-style-type:unset;
+}
+.ul10{
+    list-style-type: initial;
+}

@@ -6,6 +6,7 @@ jami=0
 namravli=1
 
 
+
 for i in range(a,b):
     jami=jami+i
     namravli=namravli*i
