@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+}
+
+.parent{
+    width: 95%;
+    height: 600px;
+    border: 3px solid  rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 200px 300px 400px 500px;
+    grid-template-rows: 300px 400px;
+    margin:  20px;
+}
+
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent2{
+    width: 94%;
+    height: 600px;
+    border: 2px solid black;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.child2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  
+
+}

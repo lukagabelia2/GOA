@@ -1,0 +1,61 @@
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(121, 122, 126);
+
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: flex-end;
+    width: 120%;
+    cursor: pointer;
+    color: rgb(10, 100, 10);
+}
+
+.nav:hover{
+    color: rgb(79, 228, 79)
+}
+
+.GOA{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: greenyellow;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .GOA {
+        font-size: 1.8rem;
+    }
+
+    .material-symbols-outlined {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .GOA {
+        font-size: 1.5rem;
+    }
+
+    .nav {
+        font-size: 14px;
+    }
+
+    .material-symbols-outlined {
+        font-size: 20px;
+    }
+}
+
+

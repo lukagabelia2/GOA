@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+}
+
+p{
+    color: red;
+    animation-name: color;
+    animation-duration: 2s;
+}
+
+
+@keyframes color{
+    from{
+        color: red;
+    }
+    to{
+       color: blue; 
+    }
+}

@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+}
+
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: color;
+    animation-duration: 2s;
+}
+
+
+
+
+
+@keyframes color{
+    from{
+        background-color: red;
+    }
+
+    to{
+        background-color: blue;
+    }
+}
+
+
+
+
+
+

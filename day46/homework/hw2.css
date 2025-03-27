@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(243, 229, 216);
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+div{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width:800px;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    border-radius: 20px ;
+}
+
+.h1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-h1{
+    display: flex;
+    width: 600px;
+    font-size: 30px;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+}
+
+.button-p{
+    display: flex;
+    width: 600px;
+    margin: -10px;
+    padding: 0px;
+    
+
+}
+
+.p2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button-p2{
+    display: flex;
+    width: 600px;
+}
+
+.prepation{
+    display: flex;
+    justify-content: center;
+}
+
+.button-prepation{
+    display: flex;
+    width: 500px;
+    color: rgb(121, 56, 82);
+    font-size: 30px;
+    margin: -10px;
+}
+
+.ul-prepation{
+    display: flex;
+    justify-content: center;
+    
+}
+.button-ul li {
+    width: 500px;
+    padding: 4px;
+    
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+}
+.button-h2{
+    width: 600px;
+    color: rgb(125, 72, 47);
+}
+
+.ingredients{
+    display: flex;
+    justify-content: center;
+    margin: -30px;
+}
+
+.button-ingredients li{
+    width: 600px;
+    padding: 3px;
+}
+.hr1{
+    overflow:hidden
+ }
+
+ .ins{
+    display: flex;
+    justify-content: center;
+ }
+    
+.button-ins{
+    width: 600px;
+    color: rgb(125, 72, 47);
+    
+}
+
+.sia{
+    display:flex;
+    justify-content: center;
+    margin: -20px;
+}
+
+
+.sia1 li {
+    width: 500px;
+    padding: 3px;
+}
+
+.nut{
+    display: flex;
+    justify-content: center;
+}
+
+.nut1{
+    width: 600px;
+    color: rgb(125, 72, 47);
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    margin: -40px;
+}
+
+.txt1{
+    width: 530px;
+}

@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 300vh;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+   
+}
+
+header ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header .logo{
+    width: 140px;
+}
+
+header button{
+    padding: 15px 25px;
+    padding: 15px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4CAF4F;
+    ;
+    color: white;
+    border-radius:2.78px;
+    border: none;
+}
+
+.header-div{
+    display: flex;
+    align-items: center;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1,002.34px;
+    height: 416.95px;
+    padding: 66.82px 100.23px 66.82px 100.23px ;
+    gap: 72.39px;
+    background-color:rgba(245, 247, 250, 1);
+    ;
+}
+.main-div .div{
+    width: 457.32px;
+    height: 192.9px;
+    gap: 22.27;
+}
+
+.main-div h1{
+    font-weight: 600;
+    font-size: 44.55px;
+}
+
+.main-div p{
+    font-weight: 400;
+    font-size: 11.14px;
+    color: rgba(113, 113, 113, 1);
+}
+
+.main-div button{
+    width: 89.55px;
+    height: 36.49px;
+    border-radius: 2.78px;
+    padding: 9.74px 22.27px 9.74px 22.27px;
+    gap: 6.96px;
+    background: rgba(76, 175, 79, 1);
+    border: none;
+    color: white;
+
+}
+
+.main-div span{
+    font-weight: 600;
+    font-size: 44.55px;
+    color: rgba(76, 175, 79, 1);
+    ;
+}
+
+
+.ball-div{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+}
+
+.main-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;height: 132px;
+}
+.main-div2 .mini-div{
+    text-align: center;
+}
+
+.main-div2 h1{
+    font-weight: 600;
+    line-height: 30.63px;
+    color:rgba(77, 77, 77, 1);
+    ;
+}
+
+.main-div2 p{
+    font-weight: 400;
+    color:rgba(113, 113, 113, 1);
+    ;
+}
+
+.main-div2 .div{
+    width: 50%;
+    height: 50%;
+
+
+}
+
+.main-div2 .div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between
+    ;
+}
+
+.main-div3{
+    width: 100%;
+    height: 20%;
+    gap: 11.14px;
+    background-color: rgb(250, 250, 250);
+}
+
+.main-div3 .div{
+    text-align: center;
+}
+
+.main-div3 .div h1{
+    font-weight: 600;
+    color:rgba(77, 77, 77, 1);
+    ;
+}
+
+.main-div3 .div p{
+    font-weight: 400;
+    color:rgba(113, 113, 113, 1);
+    ;
+}
+
+.main-div3 .div1{
+    height: 400px;
+    width: 100%;
+    padding: 100px 300px;
+
+    display: flex;
+    justify-content: space-between;    
+    
+}
+.main-div3 .n1{
+    text-align: center;
+    font-weight: 700;
+    color: rgba(77, 77, 77, 1);
+}
+.main-div3 .n1 p{
+    font-weight: 400;
+    color:rgba(113, 113, 113, 1);
+    ;
+}
+
+.main-div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+}
+
+.main-div4 .div h1{
+    font-weight: 600;
+    color:rgba(77, 77, 77, 1);
+    ;
+}
+
+.main-div4 .div p{
+    font-weight: 400;
+    color: rgba(113, 113, 113, 1);
+    ;
+}
+
+.main-div4 .div button{
+    padding: 15px 40px;
+    border-radius: 2.78px;
+    background-color: rgba(76, 175, 79, 1);
+    ;
+    border: none;
+    color: white;
+}
+
+.main-div5{
+    background-color: rgba(245, 247, 250, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+    height: 400px;
+}
+
+.main-div5 h1{
+    font-weight: 600;
+    color:rgba(77, 77, 77, 1);
+    ;
+}
+.main-div5 span{
+    font-weight: 600;
+    color: rgba(76, 175, 79, 1);
+    ;
+}
+.main-div5 p{
+    font-weight: 400;
+    color:rgba(24, 25, 31, 1);
+    ;
+}
+
+.main-div5 .div2{
+    display: grid;
+    grid-template-rows:40px 50px;
+    grid-row-gap: 60px;
+    grid-column-gap: 100px;
+    grid-template-columns: 200px 200px;
+}
+
+.main-div5 .div2 .item1{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.main-div6{
+    display: flex;
+    justify-content: center;align-items: center;
+    width: 100%;
+    height: 457px;
+    gap: 140px;
+}
+
+.main-div7{
+    background-color: rgb(245, 247, 250);
+    height: 360px;
+    gap: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div7 .logo-div div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 540px;
+    height: 40px;
+    gap: 28px;
+}
+
+.main-div7 .logo-div div .item{
+    width: 45px;
+}
+
+.main-div7 .logo-div div button{
+    display: flex;
+}
+
+.main-div8{
+    height: 560px;
+    width: 100%;
+}
+
+.main-div8 .txt{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.main-div8 .photo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 70px;
+    grid-template-rows: 300px ;
+}
+
+
+
+.final .div{
+    height: 261px;
+    width: 100%;
+    background-color:rgb(245, 247, 250) ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolo{
+    height: 282px;
+    width: 100%;
+    background-color: rgb(38, 50, 56);
+    display:grid;
+    /* align-content: center;
+    justify-content: center; */
+    grid-template-columns: 800px 300px 300px 300px;
+    grid-template-rows:100%;
+}
+
+.bolo .item1{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolo .item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolo .item2 ul li{
+    list-style-type: none;
+    color: rgba(245, 247, 250, 1);
+    opacity: 80%;
+}
+.bolo .item3 ul li{
+    list-style-type: none;
+    color: rgba(245, 247, 250, 1);
+    opacity: 80%;
+}
+.bolo .item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolo .item4{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+    top: 25px;
+}
+
+.bolo .item4 input{
+    border-radius: 5.57px;
+    background-color: rgb(81, 91, 96);
+    border: none;
+    padding: 10px 10px;
+}

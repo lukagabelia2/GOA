@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 239, 246);
+    align-items: center;
+
+}
+
+.ukana-divi{
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.main-div .p1{
+    color: hsl(179, 62%, 43%);
+    font-size: 2rem;
+}
+
+.main-div .p2{
+    color: hsl(71, 73%, 54%);
+    font-weight:bold;
+}
+
+.main-div .p3{
+    opacity: 50%;
+}
+
+
+.qvemota-nawili{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+
+.div1{
+    background-color:rgb(43, 179, 177) ;
+    padding: 30px;
+}
+
+.div1 .p{
+    color:white;
+    font-size: 18px;
+}
+
+.div1 .p1{
+    color: white;
+    font-weight: 800px;
+    font-size: 28px;
+}
+
+.suli{
+    position: absolute;
+    bottom: 301px;
+    left: 120px;
+    opacity: 40%;
+    color:rgb(255, 255, 255);    
+    
+}
+
+.div1 .p2{
+    color: white;
+    opacity: 70%;
+}
+
+.div1 button{
+    display: flex;
+    padding: 20px 90px;
+    background-color:rgb(191, 223, 50) ;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+
+.div2{
+    background-color:rgb(74, 190, 189) ;
+    padding: 40px;
+}
+
+
+.div2 .p{
+    color: white;
+}
+
+.div2 .p1{
+    opacity: 50%;
+    color: white;
+}
+
+
+@media (min-width: 600px) {
+    .qvemota-nawili {
+        grid-template-columns: 1fr 1fr;
+    }
+}

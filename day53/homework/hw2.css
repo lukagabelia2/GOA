@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 100%;
+    animation-name: burti;
+    animation-duration: 1s;
+
+}
+
+
+
+
+@keyframes burti {
+    from {
+        background-color: blue;
+       
+    
+
+    }
+
+    to {
+
+        background-color: red;
+        position: relative;
+        top: 20px;
+    }
+
+}

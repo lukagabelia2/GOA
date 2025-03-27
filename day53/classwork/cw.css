@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition:background-color 2s, rotate 4s;
+    
+}
+
+
+div:hover{
+    transform: rotate(2880deg) scale(2);
+    background-color: blue;
+    
+}

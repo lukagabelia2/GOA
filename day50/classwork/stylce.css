@@ -1,0 +1,18 @@
+body{
+    height: 200vh;
+
+}
+
+b{
+    position: sticky;
+    top: 39px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end; 
+    gap: 20px;
+    z-index: 2;
+}
