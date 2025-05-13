@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a314b;
+    font-family: "Roboto", sans-serif;
+}
+.inst{
+    display: flex;
+    gap: 20px;
+}
+.ins{
+    width: 150px;
+    height:170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border: 15px solid #3d465d;
+    color: red;
+    text-shadow: 1px -0px #fff;
+}
+.ph1{
+    background-image: url("./image/330537dc-74c0-4292-bf94-6d0b7b052692.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.ph2{
+    background-image: url("./image/69f0551f-111c-44d9-82a2-51a42c4bba45.jpg");
+}
+.ph3{
+    background-image: url("./image/840e9708-5804-4c7f-94d6-347e89cc8bb3.jpg");
+}
+.ph4{
+    background-image: url("./image/9c270221-032c-4dfc-8026-8df90bf1d53a.jpg");
+}
+.ph5{
+    background-image: url("./image/a3801482-189d-4335-9423-c77980b614c8.jpg");
+}
+.ph6{
+    background-image: url(./image/dbe2ae51-aec0-4c4b-a1eb-08bbd91ec8e9.jpg);
+}
+.ph7{
+    background-image: url(./image/f65e54c2-8eab-46c5-a6bb-e2442b83fd18.jpg);
+}
+.premium{
+    background-color: red;
+}
+.shua{
+    display: flex;
+    justify-content: center;
+}
