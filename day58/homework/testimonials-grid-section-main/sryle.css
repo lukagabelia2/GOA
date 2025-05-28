@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(237, 242, 248);
+}
+
+
+.main-div {
+    width: 90%;
+    height: 85%;
+    border: 1px solid black;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 60% 40%;
+    grid-template-columns: 35% 30% 16% 19%;
+}
+
+.item1 {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item1 img {
+    border-radius: 100%;
+    font-size: 300px
+}
+
+.gadasatani1 {
+    position: relative;
+    left: 80px;
+    top: -50px;
+    color: white;
+}
+
+.gadasatani {
+    position: absolute;
+    left: 143px;
+    top: 120px;
+    opacity: 40%;
+    color: white;
+}
+
+.item1 .p {
+    display: flex;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.item1 .p1 {
+    color: white;
+    opacity: 50%;
+
+}
+
+.item2 {
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.item2 img {
+    border-radius: 100%;
+
+}
+
+
+.item2 div {
+    position: absolute;
+    right: 540px;
+    top: 100px;
+}
+
+.item3 {
+    grid-column: 1;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+
+
+.item3 img {
+    border-radius: 100%;
+}
+
+.item3 div {
+    position: absolute;
+    left: 150px;
+    bottom: 240px;
+}
+
+.item4 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item4 img {
+    border-radius: 100%;
+}
+
+
+.item4 div {
+    position: absolute;
+    right: 750px;
+}
+
+
+.item5 {
+    display: grid;
+    grid-column: 4 /3
+}

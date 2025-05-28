@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 161, 173);
+    background-image: url("./images/bg-pattern-bottom.svg");
+    background-image: url("./images/bg-pattern-top.svg");
+}
+
+.parent-div{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.profile{
+    position: absolute;
+    display: flex;
+    top: 240px;
+    left: 340px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.london{
+    display: flex;
+    justify-content: center;
+}
+
+.qvemota{
+    display: flex;
+    padding: 50px;
+    gap: 40px;
+}

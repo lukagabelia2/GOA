@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+#shopcart {
+    width: 400px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    transform: translate(400px); 
+    transition: transform 0.5s;
+    color: black;
+    border-bottom: 1px solid black;
+    overflow: scroll;
+    
+}
+
+#closebut {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 289023480923;
+}
+
+#info {
+    padding: 20px;
+     position: sticky;
+    background-color: #fff;
+    z-index: 9999;
+    border-bottom: 1px solid black;
+    top: 0;
+}
+
+#shoph1 {
+    margin-left: 20px;
+}
+
+#shopcart p {
+    font-size: 19px;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: gray;
+
+}

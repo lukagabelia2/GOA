@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 500vh;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-image: url(./images/bg-hero-mobile.svg);
+    margin: 20px;
+    gap: 100px;
+    padding: 20px;
+    height: 500px
+
+}
+
+.div {
+    position: absolute;
+    left: 1380px;
+
+}
+
+.try {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: none;
+    color: black;
+    box-shadow: px 0px 1px black;
+
+}
+
+/* .photo{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+} */
+
+
+.info h1 {
+    line-height: 40px;
+}
+
+.info p {
+    font-size: 1rem;
+    opacity: 90%;
+    line-height: 20px;
+}
+
+.info button{
+    padding: 10px 40px;
+    color: #ffff;
+    background-color: rgb(255, 79, 191) ;
+    border-radius: 20px;
+    border: none;
+}
+
+.info img{
+    position: absolute;
+    right: 180px;
+    top: 60px;
+}
+
+.div2{
+    padding: 100px;
+    height: 700px;
+
+}
+.div2 h2{
+    font-size: 3rem;
+}
+
+.div2 p{
+    opacity: 60%;
+}
+
+.div2 div{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.div2 img{
+    position: absolute;
+    width: 500px;
+    top: 600px;
+
+}
+
+.div3{
+    height: 400px;
+}
+.div3 h3{
+    position: absolute;
+    top: 1300px;
+    right:300px;
+    font-size:3rem;
+    
+}
+
+.div3 p{
+    position: absolute;
+    top: 1350px;
+    right: 385px;
+    opacity: 50%;
+
+}
+
+.div4{
+    height: 300px;
+    padding: 30px;
+    
+}
+
+.div4 b{
+    font-size: 2rem;
+}
+
+.div4 p{
+    opacity: 50%;
+}
+
+.div4 img{
+    position: absolute;
+    top: 1600px;
+    right: 20px;
+}
+
+
+
